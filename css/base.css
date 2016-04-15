@@ -121,3 +121,14 @@ h1,h2,h3,h4{ font-size:100%; font-weight:normal;}
     text-align: left;
 }
 /*footer样式结束*/
+
+/*公用样式汇总开始*/
+.commonH2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 微软雅黑;
+    line-height: 60px;
+    color: #333;
+    padding-top: 15px;
+}
+/*公用样式汇总结束*/
