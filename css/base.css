@@ -87,7 +87,7 @@ h1,h2,h3,h4{ font-size:100%; font-weight:normal;}
 .inFooter{
     width: 1200px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding-bottom: 25px;
     overflow: hidden;
     zoom: 1;
 }
@@ -104,6 +104,10 @@ h1,h2,h3,h4{ font-size:100%; font-weight:normal;}
     color: #B0BDD0;
     font-size: 12px;
     line-height: 25px;
+}
+.inFooter img{
+    margin-top: 25px;
+    float: right;
 }
 .copyright{
     background: #1B2435;
