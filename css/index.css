@@ -176,3 +176,118 @@ h1,h2,h3,h4{ font-size:100%; font-weight:normal;}
     margin-right: 0;
 }
 /*free样式结束*/
+
+/*vip课程样式开始*/
+.vip{
+    margin-top: 60px;
+    background: #F2F2F2 url(../images/vip_bg.png) repeat-x center top;
+    padding: 60px;
+}
+.vip ul{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.vip ul li{
+    display: inline-block;
+    margin-right: 3px;
+}
+.vip ul li.last{
+    margin-right: 0px;
+}
+.vip ul li a{
+    width: 97px;
+    height: 43px;
+    display: block;
+    background: url(../images/vip_li_a_bg.png) no-repeat;
+    color: #526EA0;
+    line-height: 36px;
+}
+.vip ul li a:hover{
+    background: url(../images/vip_li_a_hover.png) no-repeat;
+    color: #fff;
+}
+.vip ul li a.cur{
+    background: url(../images/vip_li_a_hover.png) no-repeat;
+    color: #fff;
+}
+.vip ol{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.vip ol li{
+    width: 386px;
+    height: 340px;
+    float: left;
+    margin: 0 21px 40px 0;
+}
+.vip ol li img{
+    width: 386px;
+    height: 197px;
+    overflow: hidden;
+}
+.vip ol li.toRight{
+    float: right;
+    margin-right: 0;
+}
+.vip ol li a{
+    display: inline-block;
+    height: 197px;
+    position: relative;
+}
+.vip ol li a i{
+    width: 77px;
+    height: 77px;
+    position: absolute;
+    left:156px;
+    top:58px;
+    background: url(../images/vip_ol_hover.png) no-repeat;
+    opacity: 0;
+}
+.vip ol li a:hover i{
+    opacity: 1;
+}
+.vip .info{
+    border: #999 solid 1px;
+    border-top: 0;
+    padding: 0 10px 15px;
+}
+.vip .info .hd{
+    text-align: left;
+    font-size: 18px;
+    line-height: 48px;
+    overflow: hidden;
+    zoom: 1;
+}
+.vip .info .hd h3{
+    float: left;
+    color: #343434;
+}
+.vip .info .hd strong{
+    float: right;
+    color: #FE6500;
+    width: 140px;
+}
+.vip .info p{
+    color: #989898;
+    font-size: 12px;
+    text-align: left;
+    line-height: 22px;
+}
+.vip .info .fd{
+    text-align: right;
+}
+.vip .info .fd span{
+    font-size: 12px;
+}
+.vip .info .fd a{
+    width: 73px;
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    background: #f40;
+    border-radius: 3px;
+    text-align: center;
+}
+/*vip课程样式结束*/
