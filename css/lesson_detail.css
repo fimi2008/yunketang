@@ -1,0 +1,176 @@
+body{
+    background: #f2f2f2 url(../images/header_bg.png) repeat-x;
+}
+/*info样式开始*/
+.info {
+    background: #526EA0;
+    padding-bottom: 20px;
+}
+
+.info .inInfo {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.info .nav {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.info .nav a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.info .con {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.info .video {
+    width: 860px;
+    height: 400px;
+    float: left;
+}
+
+.info .about {
+    width: 280px;
+    height: 370px;
+    float: right;
+    background: #fff;
+    padding: 15px;
+}
+
+.info .about h2 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info .about p {
+    font-size: 12px;
+    color: #666666;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.info .about strong {
+    color: #FD6400;
+    font-size: 24px;
+}
+
+.info .about a {
+    display: inline-block;
+    background: #FD6400;
+    width: 130px;
+    height: 46px;
+    color: #fff;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 15px 5px 0 0;
+}
+/*info样式结束*/
+
+/*main样式开始*/
+.main{
+    width: 1200px;
+    margin: 35px auto 110px;
+    overflow: hidden;
+    zoom: 1;
+}
+.main .list{
+    width: 860px;
+    float: left;
+}
+.main .list ul{
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    zoom: 1;
+}
+.main .list ul li{
+    float: left;
+    width: 107px;
+}
+.main .list ul li a{
+    display: block;
+    text-align: center;
+    line-height: 38px;
+    font-size: 18px;
+}
+.main .list ul li.cur{
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    border-top: 3px solid #FF6400;
+    background: #fff;
+}
+.main .list ol{
+    border: solid 1px #ccc;
+    border-top: 0;
+    height: 960px;
+    background: #fff;
+    padding: 20px;
+}
+.main .list ol li{
+    border-bottom: #bbb dotted 1px;
+    overflow: hidden;
+    zoom: 1;
+}
+.main .list ol li span{
+    line-height: 40px;
+    float: left;
+}
+.main .list ol li a{
+    background: url(../images/sj.gif) no-repeat 65px center;
+    border: 1px #FF6400 solid;
+    border-radius: 25px;
+    width: 68px;
+    height: 25px;
+    float: right;
+    line-height: 25px;
+    text-align: center;
+    color: #FF6400;
+    padding-right:10px;
+    font-size: 12px;
+    margin-top: 6px;
+}
+.main .history{
+    width: 310px;
+    float: right;
+}
+.main .history li{
+    margin-bottom: 26px;
+}
+.main .history h2{
+    font-size: 18px;
+    line-height: 40px;
+}
+.main .history .hd{
+    border: 1px #ccc solid;
+    border-top: 0;
+    padding: 0 15px 23px;
+    overflow: hidden;
+    zoom: 1;
+}
+.main .history .hd span{
+    font-size: 18px;
+    float: left;
+    margin-top: 14px;
+}
+.main .history .hd a{
+    margin-top: 10px;
+    font-size: 12px;
+    float: right;
+    width: 73px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background: #FF6400;
+    border-radius: 5px;
+    color: #fff;
+}
+/*main样式结束*/
