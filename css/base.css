@@ -78,6 +78,52 @@ h1,h2,h3,h4{ font-size:100%; font-weight:normal;}
 }
 /*header样式结束*/
 
+/*banner样式开始*/
+.banner{
+    width: 100%;
+    height: 520px;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul{
+    width: 9999px;
+    height: 520px;
+    position: absolute;
+    overflow: hidden;
+    left: 50%;
+    margin-left: -960px;
+}
+.banner ul li{
+    float: left;
+}
+.banner ol{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    /*background: #000;*/
+    /*opacity: 0.5;*/
+    /*filter: opacity(50);*/
+    background: rgba(0,0,0,0.5);
+    padding: 0  8px;
+    border-radius: 15px;
+    margin-left: -45px;
+}
+.banner ol li{
+    float: left;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    background: #fff;
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+    margin: 8px;
+}
+.banner ol li.cur{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+/*banner样式结束*/
+
 /*footer样式开始*/
 .footer{
     padding-top: 20px;
