@@ -142,6 +142,9 @@ body{
 .main .history li{
     margin-bottom: 26px;
 }
+.main .history li img{
+    width: 310px;
+}
 .main .history h2{
     font-size: 18px;
     line-height: 40px;
