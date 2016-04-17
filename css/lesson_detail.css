@@ -114,12 +114,9 @@ body{
 }
 .main .list ol li{
     border-bottom: #bbb dotted 1px;
+    line-height: 40px;
     overflow: hidden;
     zoom: 1;
-}
-.main .list ol li span{
-    line-height: 40px;
-    float: left;
 }
 .main .list ol li a{
     background: url(../images/sj.gif) no-repeat 65px center;
